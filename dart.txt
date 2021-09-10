@@ -1,0 +1,44 @@
+void main(){
+ var sub1 = 88;
+ var sub2 = 56;
+  var sub3 = 46;
+  var sub4 = 44;
+  var sub5 = 66;
+  var sub6 = 78;
+  var sub7 = 83;
+  var sub8 = 90;
+  
+  
+  var sum = sub1+sub2+sub3+sub4+sub5+sub6+sub7+sub8;
+  
+  var grade = sum/8;
+  
+  if(grade >= 80){ 
+    print ("your grade is A1");
+  }
+    else if (grade <= 80 && grade >= 70){
+      print("your grade is A");
+    }
+    else if(grade <=70 && grade >= 60){
+      print("your grade is B");
+    }
+    else if(grade <=60 && grade >= 50){
+      print("your grade is C");
+    }
+    else if (grade <=50 && grade >= 40){
+      print("your grade is D");
+    }
+  else{
+    print("you are fail");
+  }
+  
+  print(grade);
+  
+  
+  
+  
+
+  
+               
+}
+           
